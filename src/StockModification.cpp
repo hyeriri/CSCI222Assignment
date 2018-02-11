@@ -4,14 +4,16 @@
 //
 
 
-
 // CSCI 222 A2
-// WM_SystemInterface class
-// this class handles the menu and user's options.
+// StockModification class
+// This class handles the creation, removal and modification of stocks
+
 
 #include <iostream>
 #include "Stock.h";
 using namespace std;
+
+Manager m;
 
 class StockModification
 {
@@ -25,11 +27,15 @@ private:
 
 StockModification::StockModification()
 {
-
+	// constructor
 }
 
 void StockModification::addStock()
 {
+	string id;
+
+	cout << "Enter Item ID: "
+	cin >> id;
 
 }
 

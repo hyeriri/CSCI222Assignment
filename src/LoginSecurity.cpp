@@ -6,8 +6,8 @@
 
 
 // CSCI 222 A2
-// WM_SystemInterface class
-// this class handles the menu and user's options.
+// Login Security Class
+// This class does encryption for passwords and data. 
 
 #include <iostream>
 using namespace std;
@@ -27,9 +27,14 @@ LoginSecurity::LoginSecurity()
 
 }
 
-string LoginSecurity::generateHashPassword(string pass)
+static string LoginSecurity::generateHashPassword(string pass)
 {
- 
+  
+  string hash; 
+
+  
+
+  return hash;
 }
 
 void encryptData()

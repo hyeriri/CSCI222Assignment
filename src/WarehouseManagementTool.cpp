@@ -2,6 +2,10 @@
 //  WarehouseManagementTool.cpp
 //  CSCI222
 //
+// This class serves as a login page and the main() for A2
+
+// to compile: 
+
 
 #include <iostream>
 #include <stdio.h>
